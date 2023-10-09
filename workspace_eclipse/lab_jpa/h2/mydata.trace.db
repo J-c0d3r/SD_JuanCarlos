@@ -1,0 +1,6 @@
+2023-10-09 19:47:26 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID DESCRICAO DESCRICAO PRODUTO"; expected "INSERT"; SQL statement:
+ID DESCRICAO DESCRICAO PRODUTO [42001-214]
+2023-10-09 19:53:57 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM FORNECEDOR FORNECEDOR_LISTA_PRODUTO [*]PRODUTO"; SQL statement:
+SELECT * FROM FORNECEDOR FORNECEDOR_LISTA_PRODUTO PRODUTO [42000-214]
