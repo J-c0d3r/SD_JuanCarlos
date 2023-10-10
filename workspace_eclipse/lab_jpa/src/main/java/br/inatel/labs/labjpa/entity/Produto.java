@@ -25,6 +25,19 @@ public class Produto {
 	@ManyToMany(mappedBy = "listaProduto")
 	private List<Fornecedor> listaFornecedor;
 
+	
+	//construtores
+	public Produto() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Produto(@NotNull @Size(min = 2, max = 100) String descricao) {
+		super();
+		this.descricao = descricao;
+	}
+	
+	
+	//acessores
 	public Long getId() {
 		return id;
 	}
